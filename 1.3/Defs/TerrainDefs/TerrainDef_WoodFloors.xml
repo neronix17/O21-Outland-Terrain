@@ -74,47 +74,11 @@
 	</TerrainDef>
 
 	<TerrainDef ParentName="OutlandFloorBase">
-		<defName>Outland_WoodFloorPatterned</defName>
-		<label>wood floor patterned</label>
-		<renderPrecedence>250</renderPrecedence>
-		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
-		<texturePath>Outland/Terrain/PatterenedWoodFloor</texturePath>
-		<burnedDef>BurnedWoodPlankFloor</burnedDef>
-		<color>(108,78,55)</color>
-		<statBases>
-			<WorkToBuild>85</WorkToBuild>
-			<Flammability>0.22</Flammability>
-		</statBases>
-		<costList>
-			<WoodLog>3</WoodLog>
-		</costList>
-		<constructEffect>ConstructWood</constructEffect>
-	</TerrainDef>
-
-	<TerrainDef ParentName="OutlandFloorBase">
 		<defName>Outland_WoodFloorWarped</defName>
 		<label>wood floor warped</label>
 		<renderPrecedence>250</renderPrecedence>
 		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
 		<texturePath>Outland/Terrain/WarpedWoodFloor</texturePath>
-		<burnedDef>BurnedWoodPlankFloor</burnedDef>
-		<color>(108,78,55)</color>
-		<statBases>
-			<WorkToBuild>85</WorkToBuild>
-			<Flammability>0.22</Flammability>
-		</statBases>
-		<costList>
-			<WoodLog>3</WoodLog>
-		</costList>
-		<constructEffect>ConstructWood</constructEffect>
-	</TerrainDef>
-
-	<TerrainDef ParentName="OutlandFloorBase">
-		<defName>Outland_WoodFloorInterlaced</defName>
-		<label>wood floor interlaced</label>
-		<renderPrecedence>250</renderPrecedence>
-		<description>Wood plank flooring for that warm, homey feeling. While it is quick to lay, it is also very flammable.</description>
-		<texturePath>Outland/Terrain/InterlacedWoodFloor</texturePath>
 		<burnedDef>BurnedWoodPlankFloor</burnedDef>
 		<color>(108,78,55)</color>
 		<statBases>
