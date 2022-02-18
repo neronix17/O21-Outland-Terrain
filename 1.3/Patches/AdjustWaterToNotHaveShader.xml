@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TerrainDef[@Name="WaterDeepBase" or @Name="WaterChestDeepBase" or defName="WaterShallow" or defName="WaterOceanShallow" or defName="WaterMovingShallow"]/waterDepthShader</xpath>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[@Name="WaterBase"]/edgeType</xpath>
+		<value>
+			<edgeType>FadeRough</edgeType>
+		</value>
+	</Operation>
+
+</Patch>
