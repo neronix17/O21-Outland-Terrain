@@ -3,5 +3,6 @@
 	<v1.3>
 		<li>/</li>
 		<li>1.3</li>
+		<li IfModActive="VanillaExpanded.VTEXE">1.3/Mods/VanillaTexturesExpanded</li>
 	</v1.3>
 </loadFolders>

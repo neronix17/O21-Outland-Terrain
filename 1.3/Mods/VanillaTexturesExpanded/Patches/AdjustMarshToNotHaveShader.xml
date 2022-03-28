@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/TerrainDef[defName="Marsh"]/waterDepthShader</xpath>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/TerrainDef[defName="Marsh"]/edgeType</xpath>
+		<value>
+			<edgeType>FadeRough</edgeType>
+		</value>
+	</Operation>
+
+</Patch>
